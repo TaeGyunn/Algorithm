@@ -5,7 +5,6 @@ public class JAdenCase문자열만들기 {
     public String solution(String s){
        String answer = "";
        String[] arr = s.toLowerCase().split("");
-       StringBuilder sb = new StringBuilder();
 
        boolean blank = true;
 
