@@ -1,7 +1,5 @@
 package Programmers.Level2;
 
-import java.util.Scanner;
-
 public class 이진변환반복하기 {
 
     public int[] solution(String s){
@@ -29,13 +27,6 @@ public class 이진변환반복하기 {
     }
 
     public static void main(String[] args){
-
-        이진변환반복하기 T = new 이진변환반복하기();
-        Scanner scan = new Scanner(System.in);
-        String s = scan.next();
-
-        System.out.print(T.solution(s));
-
 
     }
 }
