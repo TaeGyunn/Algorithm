@@ -3,11 +3,13 @@ package infrean;
 import java.util.Scanner;
 
 public class 팩토리얼 {
-    public int solution(int n ){
-        if(n == 1) return 1;
-        else return n*solution(n-1);
-
-    }
+   public int solution(int n){
+       if(n==1){
+            return 1;
+       }else{
+           return n * solution(n-1);
+       }
+   }
 
     public static void main(String[] args){
 
