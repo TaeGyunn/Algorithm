@@ -16,7 +16,8 @@ public class DFS와BFS_1260 {
         int start = sc.nextInt();           // 시작지점
         int[][] map = new int[N][N];
         int[][] visited = new int[N][N];
-
+        
+        // map 선언
         for(int i=0; i<M; ++i){
             int fr = sc.nextInt();
             int to = sc.nextInt();
