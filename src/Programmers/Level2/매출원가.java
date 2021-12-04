@@ -32,6 +32,7 @@ public class 매출원가 {
         Queue<Integer> qp = new LinkedList<>();
         Queue<Integer> qc = new LinkedList<>();
         int[] answer = new int[2];
+
         //선입선출
         for(int i=0; i<arr.length; i++){
             if(arr[i][0].equals("P")){
